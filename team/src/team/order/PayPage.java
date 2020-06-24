@@ -85,7 +85,7 @@ public class PayPage extends JPanel implements ActionListener{
 		frame.getContentPane().add(panel);
 		panel.setLayout(null);
 		
-		JLabel identifyLabel = new JLabel("주문 확인");
+		JLabel identifyLabel = new JLabel("주문 확인.");
 		identifyLabel.setBounds(300, 50, 400, 35);
 		identifyLabel.setFont(new Font("D2coding",	Font.BOLD, 40));
 		panel.add(identifyLabel);
